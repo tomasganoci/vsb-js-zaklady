@@ -1,0 +1,16 @@
+.color h1 {
+  text-align: center;
+}
+
+.color div {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.color button {
+  background-color: lightblue;
+  border-radius: 10px;
+  padding: 0.5em 1em;
+  font-weight: bold;
+}

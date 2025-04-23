@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VŠB - JavaScript - Základy</title>
+    <link rel="stylesheet" href="style/color.css">
+    <link rel="stylesheet" href="style/modal.css">
+</head>
+
+<body>
+    <div class="color">
+        <h1 class="nadpis">Náhodná barva pozadí</h1>
+        <div><button type="button" class="buttonRGB">Klikní na mě RGB!</button></div>
+        <div><button type="button" class="buttonHEX">Klikní na mě HEX!</button></div>
+    </div>
+    <hr>
+    <div class="modalBody">
+        <h1>Modal window</h1>
+        <div class="modalMain">
+
+            <button class="show-modal">Show modal 1</button>
+            <button class="show-modal">Show modal 2</button>
+            <button class="show-modal">Show modal 3</button>
+            <div class="modal hidden">
+                <button class="close-modal">&times;</button>
+                <h1>I'm a modal window 😍</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                    occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                    mollit anim id est laborum.
+                </p>
+            </div>
+            <div class="overlay hidden"></div>
+        </div>
+    </div>
+    <hr>
+    <div class="sample">
+        <h1>Nové featury v JavaScriptu</h1>
+        <ol>
+            <li>Destruktulizace</li>
+            <li>Spread</li>
+            <li>Rest</li>
+        </ol>
+        <p style="color:red"><b>Vše je v konzoly :)</b></p>
+    </div>
+
+</body>
+<script src="js/color.js"></script>
+<script src="js/modal.js"></script>
+<script src="js/sample.js"></script>
+
+</html>
